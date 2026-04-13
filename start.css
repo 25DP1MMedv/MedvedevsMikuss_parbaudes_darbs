@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #E6E8E6;
+  color: #191919;
+}
+
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background: #553A41;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #E6A5B1;
+}
+
+.hero {
+  width: 100%;
+  padding: 200px 20px 120px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url("mainlogo.png");
+  background-repeat: no-repeat;
+  background-position: center 60px;
+  background-size: 220px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 120px auto 10px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 14px 40px;
+  background: #3A6EA5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #553A41;
+}
+
+.products {
+  max-width: 1300px;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.old {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 8px;
+}
+
+.new {
+  color: #3A6EA5;
+  font-weight: bold;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
