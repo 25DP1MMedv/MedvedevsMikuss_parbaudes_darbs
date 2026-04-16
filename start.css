@@ -96,3 +96,15 @@ footer {
 footer p {
   margin: 5px 0;
 }
+.footer-bottom {
+  background: #6B4A52;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
